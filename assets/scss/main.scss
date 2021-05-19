@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'fonts';
 
 * {
   margin: 0;
@@ -8,6 +9,7 @@
 :root {
   font-size: 16px;
   line-height: 24px;
+  font-family: 'OpenSans';
 }
 body {
   --translateY: 50%;
@@ -33,7 +35,8 @@ body {
   display: flex;
   flex-direction: column-reverse;
   align-items: start;
-  border-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   background-color: $second-grey;
   &:hover {
     background-color: $second-grey-light;
@@ -97,7 +100,6 @@ body {
 .error-text {
   margin-left: 4px;
   font-size: 0.8rem;
-  
 }
 .hidden {
   visibility: hidden;
