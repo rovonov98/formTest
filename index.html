@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="input-component">
+        <div class="Rectangle-7">
+          <input 
+            class="input" 
+            pattern="test" 
+            id="input" 
+            type="text"
+            placeholder=" "
+          >
+          <label class="label-wrapper" for="input">
+            <span class="Hint-text" >Label</span>
+          </label>
+        </div>
+        <div class="error hidden">
+          <img src="assets/img/icons-16-icon-input-error.svg" alt="">
+          <span class="error-text">Error text</span>
+        </div>
+      </div>
+      <div class="input-component">
+        <div class="Rectangle-7">
+          <input 
+            class="input" 
+            pattern="test" 
+            id="input2" 
+            type="text"
+            placeholder=" "
+            required
+          >
+          <label class="label-wrapper" for="input2">
+            <span class="Hint-text" >Label</span>
+          </label>
+        </div>
+        <div class="error hidden">
+          <img src="assets/img/icons-16-icon-input-error.svg" alt="">
+          <span class="error-text">Error text</span>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
